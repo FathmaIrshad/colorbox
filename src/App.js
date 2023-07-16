@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+// import ColorBox from "./components/ColorBox";
+import ColorBoxGrid from "./components/ColorBoxGrid";
+
+export default function App() {
+
+  const colors=[
+    "red",
+    "blue",
+    "orange",
+    "magenta",
+    "green",
+    "black",
+    "brown",
+    "pink",
+    "yellow",
+    "turquoise"];
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div className="ColorBoxGrid App">
+      <ColorBoxGrid colors={colors}/>
+     </div>
   );
 }
-
-export default App;
