@@ -1,3 +1,7 @@
+This program designs a ColorBox in React environment.
+It is a grid of 25 boxes. ColorBox grid component renders 25 Colorbox components. Upon clicking each box the color should change to a random color out of an array of colors  preset by us.The defined colors are passed as Props. And uses the usestate feature to set data changed on every click.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
